@@ -145,7 +145,7 @@ const Checkout = () => {
             active: payWithCard,
             code: Number(cleanCardCode),
             name: values.cardDisplayName,
-            number: values.cardNumber,
+            number: cleanCardNumber,
             owner: {
               document: cleanCpfCardOwner,
               name: values.cardOwner
